@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,300;1,700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Namecat;
+    src: url(./fonts/Namecat.ttf);
+}
+html{
+    font-family: 'Londrina Solid', sans-serif;
+}
+.fondo{
+    width: auto;
+    height: auto;
+    background-image: url('rick-and-morty-1.jpg');
+    background-size: cover;
+    
+}
+
+.title{
+    font-family: namecat;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 200px;
+    color: black;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: aqua;
+}
+.portada{
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    color:black;
+    font-weight: 30%;
+      
+}
+.btn1{
+    display: flexbox;
+    box-sizing: inherit;
+    align-items: center;
+    margin-top: 10px;
+    padding-top: 5px;
+
+}
+.boton{
+    display: inline-block;
+    padding-top: 5px;
+    color: white;
+    background-color:rgb(9, 233, 9);
+    border-radius: 0 0.5em 0.5em 0;
+    -webkit-text-stroke-width: 0.8;
+    -webkit-text-stroke-color: black;
+    font-weight: 50px;
+}
+.error{
+    text-align: center;
+}
+
+body{
+    width: auto;
+    margin: 0;
+    background-color: #084851;
+}
+h1,h2,h3,p,ul,hr{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+input,button{
+    font-family: inherit;
+}
+input{
+    outline: none;
+}
+
+button{
+    cursor:pointer
+}
+
+img{
+    width: 100%;
+    display:block;
+}
